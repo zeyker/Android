@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/contenedorPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--Contenedor de Frame-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedorFrame">
+    </FrameLayout>
+    <!-- Menu izquieda -->
+    <ListView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/menuIzq"
+        android:background="#323232"
+        android:choiceMode="singleChoice"
+        >
+
+    </ListView>
+</android.support.v4.widget.DrawerLayout>
